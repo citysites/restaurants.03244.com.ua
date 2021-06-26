@@ -1,0 +1,19 @@
+User-Agent: *
+Disallow: /page18542687.html
+Disallow: /footer.html
+Disallow: /footer
+Disallow: /page18542719.html
+Disallow: /header.html
+Disallow: /header
+Disallow: /tilda/form*
+Disallow: /tilda/rec*
+Disallow: /tilda/click*
+Disallow: /tilda/scroll*
+Disallow: /tilda/popup*
+Disallow: /tilda/cart*
+Disallow: /tilda/product*
+Disallow: /tilda/event*
+Disallow: /*_escaped_fragment_*
+Disallow:
+Sitemap: http://restaurants.03244.com.ua/sitemap.xml
+Host: restaurants.03244.com.ua

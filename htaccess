@@ -1,0 +1,81 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page18542256.html
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^golovna$ page18542256.html [NC]
+RewriteRule ^golovna/$ page18542256.html [NC]
+
+RewriteRule ^partner$ page18542659.html [NC]
+RewriteRule ^partner/$ page18542659.html [NC]
+
+RewriteRule ^footer$ page18542687.html [NC]
+RewriteRule ^footer/$ page18542687.html [NC]
+
+RewriteRule ^header$ page18542719.html [NC]
+RewriteRule ^header/$ page18542719.html [NC]
+
+RewriteRule ^yourburger$ page18626808.html [NC]
+RewriteRule ^yourburger/$ page18626808.html [NC]
+
+RewriteRule ^mask$ page18626968.html [NC]
+RewriteRule ^mask/$ page18626968.html [NC]
+
+RewriteRule ^tarantino$ page18646885.html [NC]
+RewriteRule ^tarantino/$ page18646885.html [NC]
+
+RewriteRule ^kavun$ page18647947.html [NC]
+RewriteRule ^kavun/$ page18647947.html [NC]
+
+RewriteRule ^fellini$ page18648928.html [NC]
+RewriteRule ^fellini/$ page18648928.html [NC]
+
+RewriteRule ^rafineria$ page18653156.html [NC]
+RewriteRule ^rafineria/$ page18653156.html [NC]
+
+RewriteRule ^vizyt$ page18653613.html [NC]
+RewriteRule ^vizyt/$ page18653613.html [NC]
+
+RewriteRule ^zalissia$ page18653804.html [NC]
+RewriteRule ^zalissia/$ page18653804.html [NC]
+
+RewriteRule ^korchma$ page18656280.html [NC]
+RewriteRule ^korchma/$ page18656280.html [NC]
+
+RewriteRule ^greenpark$ page18656549.html [NC]
+RewriteRule ^greenpark/$ page18656549.html [NC]
+
+RewriteRule ^romasiaj$ page18656803.html [NC]
+RewriteRule ^romasiaj/$ page18656803.html [NC]
+
+RewriteRule ^simka2$ page18656941.html [NC]
+RewriteRule ^simka2/$ page18656941.html [NC]
+
+RewriteRule ^bbq$ page18657023.html [NC]
+RewriteRule ^bbq/$ page18657023.html [NC]
+
+RewriteRule ^rest-cafe$ page18657215.html [NC]
+RewriteRule ^rest-cafe/$ page18657215.html [NC]
+
+RewriteRule ^pizza-sushi$ page18659093.html [NC]
+RewriteRule ^pizza-sushi/$ page18659093.html [NC]
+
+RewriteRule ^burgers-kebab$ page18659146.html [NC]
+RewriteRule ^burgers-kebab/$ page18659146.html [NC]
+
+RewriteRule ^ilovekebab$ page18885480.html [NC]
+RewriteRule ^ilovekebab/$ page18885480.html [NC]
+
+RewriteRule ^myasnyk$ page19152288.html [NC]
+RewriteRule ^myasnyk/$ page19152288.html [NC]
+
+RewriteRule ^horyzont$ page19152353.html [NC]
+RewriteRule ^horyzont/$ page19152353.html [NC]
+
+RewriteRule ^favicon.ico$ https://static.tildacdn.com/img/tildafavicon.ico [R=302,L]
+
